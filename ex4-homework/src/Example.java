@@ -88,7 +88,7 @@ class BeijingPeople extends ChinaPeople {
 }
 
 public class Example {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         ChinaPeople chinaPeople = new ChinaPeople();
         AmericanPeople americanPeople = new AmericanPeople();
         BeijingPeople beijingPeople = new BeijingPeople();

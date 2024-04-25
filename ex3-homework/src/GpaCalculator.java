@@ -3,7 +3,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 class Gpa {
-    Map<Float, Float> courses = new HashMap<Float, Float>();
+    Map<Float, Float> courses = new HashMap<>();
 
     int getGradePoints(float grade){
         if(grade >= 85){
@@ -36,7 +36,7 @@ class Gpa {
 }
 
 public class GpaCalculator {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number of courses: ");
         int n = scanner.nextInt();
