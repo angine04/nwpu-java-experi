@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net" modified="2024-05-11T06:23:46.062Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="ZnpdVQ-DRJzfUzv2EpUm" version="24.2.7" type="device">
+  <diagram name="第 1 页" id="x_i_-oTYh357FhNiy-jN">
+    <mxGraphModel dx="2708" dy="1735" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u_d2pRbgUaOH4Io2uEPG-1" value="A" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-938" y="-570" width="160" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="u_d2pRbgUaOH4Io2uEPG-2" value="+ b : B&lt;div&gt;+ c : List&amp;lt;C&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="u_d2pRbgUaOH4Io2uEPG-1">
+          <mxGeometry y="26" width="160" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="u_d2pRbgUaOH4Io2uEPG-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="u_d2pRbgUaOH4Io2uEPG-1">
+          <mxGeometry y="65" width="160" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="u_d2pRbgUaOH4Io2uEPG-5" value="B" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1037" y="-450" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="u_d2pRbgUaOH4Io2uEPG-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="u_d2pRbgUaOH4Io2uEPG-5">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="u_d2pRbgUaOH4Io2uEPG-9" value="C" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-844" y="-450" width="160" height="34" as="geometry">
+            <mxRectangle x="-844" y="-450" width="44" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_d2pRbgUaOH4Io2uEPG-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="u_d2pRbgUaOH4Io2uEPG-9">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="u_d2pRbgUaOH4Io2uEPG-11" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_d2pRbgUaOH4Io2uEPG-1" target="u_d2pRbgUaOH4Io2uEPG-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1095" y="-263" as="sourcePoint" />
+            <mxPoint x="-935" y="-263" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u_d2pRbgUaOH4Io2uEPG-12" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_d2pRbgUaOH4Io2uEPG-1" target="u_d2pRbgUaOH4Io2uEPG-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-903" y="-151" as="sourcePoint" />
+            <mxPoint x="-743" y="-151" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
